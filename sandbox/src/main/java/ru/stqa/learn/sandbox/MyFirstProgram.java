@@ -5,7 +5,6 @@ public class MyFirstProgram {
   public static void main(String[] args) {
     hello("world");
     hello("user");
-    hello("Igor");
     hello("Vasya");
     
     
@@ -17,7 +16,7 @@ double b = 6;
 System.out.println("Площадь приямоугольника со сторонами " + a + " и "  + b + " = " + area (a,b));
   }
 public static void hello(String somebody) {
-    System.out.println("Hello, " +somebody+ "!");
+        System.out.println("Hello, " +somebody+ "!");
 }
 public static double area (double len) {
     return len * len;
